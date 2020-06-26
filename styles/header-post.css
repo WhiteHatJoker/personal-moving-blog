@@ -1,0 +1,48 @@
+/* Header */
+.header {
+    background-image: url("../img/guide-to-mover-contracts.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.headerContainer h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+
+.blogMeta a:link, .blogMeta a:visited {
+    color: #fc8237;
+}
+
+.blogMeta::after{
+        width: 90%;
+        max-width: 10rem;
+        border-bottom: 2px white solid;
+        margin: 0 auto;
+        height: 0;
+        display: block;
+        content: " ";
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem
+
+}
+
+.blogMeta {
+    color: white;
+}
+
+.orange {
+    color: #fc8237;
+}
+

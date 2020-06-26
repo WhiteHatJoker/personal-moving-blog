@@ -1,0 +1,30 @@
+  /* If Screen Is Wide Enough */
+  @media(min-width:900px) {
+    .mainContainer{
+          display:grid;
+          grid-template-columns: repeat(7, 1fr) 300px;
+          grid-template-rows: 700px auto 60px;
+          grid-template-areas: 
+          "hd hd hd hd hd hd hd hd"
+          "main main main main main main main sd"
+          "ft ft ft ft ft ft ft ft";
+    }
+
+    .sidebar {
+      border-left: 1px solid gray;
+    }
+
+    .sidebar h3 {
+      padding-top: 50px;
+    }
+
+    }
+
+    @media(min-width:1300px) {
+      .nestedGrid{
+        width: 90%;
+        margin: 50px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+  }

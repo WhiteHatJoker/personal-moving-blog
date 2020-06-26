@@ -1,0 +1,12 @@
+/* Sidebar */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.sidebar a:link, .sidebar a:visited {
+    color:#515151;
+}

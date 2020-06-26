@@ -1,0 +1,13 @@
+
+/* Main Content */
+
+
+main .container {
+    width: 70%;
+    margin: 50px auto;
+}
+
+main .container a:link, main .container a:visited {
+    text-decoration: none;
+    color: #fc8237;
+}

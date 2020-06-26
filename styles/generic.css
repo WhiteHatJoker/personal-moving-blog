@@ -1,0 +1,70 @@
+body, p {
+    color: #515151;
+    font-size: 16px;
+    font-family: Lora, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lora, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: #fc8237;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+a:link, a:visited {
+    color: #515151;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #fc8237;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding-left:0;
+    margin-top: 0;
+    list-style-type: none;
+}
+
+
+/* Layout */
+
+.mainContainer{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px auto auto 60px;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "sd"
+    "ft";
+}
+
+.header{
+    grid-area:hd;
+}
+.footer{
+    grid-area: ft;  
+}
+.sidebar{
+    grid-area: sd;
+}
+.content{
+    grid-area: main;
+}

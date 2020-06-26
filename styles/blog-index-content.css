@@ -1,0 +1,112 @@
+/* Main Content */
+.pageTitle {
+    text-align: center;
+    padding: 50px 0 10px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pageTitle::after{
+    width: 40%;
+    max-width: 10rem;
+    border-bottom: 2px #fc8237 solid;
+    margin: 0 auto;
+    height: 0;
+    display: block;
+    content: " ";
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem
+}
+
+.nestedGrid{
+    width: 95%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(850px, auto);
+    grid-gap: 20px;
+}
+
+.nestedGrid article {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#article-1 {
+    background-image: url(../img/guide-to-mover-contracts.jpg);
+}
+
+#article-2 {
+    background-image: url(../img/things-to-ask.jpg)
+}
+
+#article-3 {
+    background-image: url(../img/what-not-to-do-when-hiring-interstate-movers.jpg)
+}
+
+#article-4 {
+    background-image: url(../img/downsizing-home.jpg)
+}
+
+#article-5 {
+    background-image: url(../img/packing-home-move.jpg)
+}
+
+#article-6 {
+    background-image: url(../img/couple-moving.jpg)
+}
+
+.nestedGrid .backgr {
+    background: rgba(44,43,43,.49);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.articleWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogTitle { 
+    color:white;
+    text-align: center;
+}
+
+.blogTitle a:link, .blogTitle a:visited {
+    color: white;
+}
+
+.blogMeta {
+    color: white;
+}
+
+.blogMeta a:link, .blogMeta a:visited {
+    color: #fc8237;
+}
+
+.orange {
+    color: #fc8237;
+}
+
+
+.previewText {
+    color: white;
+    text-align: justify;
+}
+
+.read-more {
+    background-color: #fc8237;
+    color: white;
+    border-radius: 2rem;
+    padding: 16px 64px;
+    text-decoration: none;
+}
