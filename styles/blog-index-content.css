@@ -110,3 +110,7 @@
     padding: 16px 64px;
     text-decoration: none;
 }
+
+a.read-more:hover, a.read-more:visited {
+    color: white;
+}

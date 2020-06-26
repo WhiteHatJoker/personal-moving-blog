@@ -10,3 +10,7 @@
 .sidebar a:link, .sidebar a:visited {
     color:#515151;
 }
+
+.sidebar h3 {
+    text-decoration: underline;
+}

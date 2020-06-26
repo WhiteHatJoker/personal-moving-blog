@@ -11,3 +11,41 @@ main .container a:link, main .container a:visited {
     text-decoration: none;
     color: #fc8237;
 }
+
+.postMainPic {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 405px;
+}
+
+figure {
+    float: left;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.authorInfo {
+    width: 100%;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.authorImage {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+}
+
+.authorName {
+    color: white;
+    font-size: 20px;
+    margin:5px 0;
+}
